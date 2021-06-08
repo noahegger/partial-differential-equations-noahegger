@@ -1,0 +1,20 @@
+&integration
+	length = 5.0,
+	n_points = 100,
+	n_steps = 100,
+	delta_t = 0.05,
+/
+&wave_function
+	width = 0.5,
+	center = 2.5,
+/
+&oscillator
+	k_oscillator = 1.0,
+/
+&output
+	time_file = 'time_results_harmonic_2.dat'
+	density_file = 'density_results_harmonic_2.dat'
+	position_file = 'analytic_position_2.dat'
+/
+
+
